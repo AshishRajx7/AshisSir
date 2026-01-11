@@ -255,3 +255,37 @@ export const publications = [
     citationCount: 0
   }
 ];
+export const studentData = {
+  stats: {
+    phd: 5,
+    masters: 12,
+    undergrad: 20
+  },
+
+  currentScholars: [
+    {
+      name: "Research Scholar 1",
+      topic: "MEMS based humidity sensors"
+    },
+    {
+      name: "Research Scholar 2",
+      topic: "Flexible wearable electronics"
+    },
+    {
+      name: "Research Scholar 3",
+      topic: "Nanomaterials for biomedical applications"
+    }
+  ],
+
+  notableAlumni: [
+    {
+      name: "Alumnus 1",
+      achievement: "Research Engineer in Sensor Technology"
+    },
+    {
+      name: "Alumnus 2",
+      achievement: "Doctoral Researcher in Biomedical Engineering"
+    }
+  ]
+};
+
